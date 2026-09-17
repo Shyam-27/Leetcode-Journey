@@ -1,7 +1,7 @@
 class Solution {
     public int minSumOfLengths(int[] arr, int target) {
-        
-         int n = arr.length;
+
+        int n = arr.length;
         int res = n + 1, sum = 0, i = 0;
 
         int[] dp = new int[n + 1];
