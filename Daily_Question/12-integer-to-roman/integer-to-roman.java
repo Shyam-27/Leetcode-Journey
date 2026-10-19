@@ -5,7 +5,7 @@ class Solution {
 
         StringBuilder str = new StringBuilder();
 
-        for (int i = 0; i < nums.length; i++){
+        for (int i = 0; i < nums.length; ++i){
             if (num == 0) break;
 
             while (num >= nums[i]){
